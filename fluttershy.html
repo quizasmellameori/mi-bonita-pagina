@@ -3,13 +3,18 @@
 <style>
 body{
   background-color:#FFEEBB;
+ font-family: Century Gothic, sans-serif;
   }
+  
 div{
   background-color:#FFFFFF;
   border-radius:10px;
-  padding:10px;;
-  margin:250px;
-  height:500px;
+  padding:10px;
+  padding-bottom:95px;
+  width:800px;
+  margin:250px auto;
+  overflow:auto;
+  position: relative;
   }
 a{
   text-decoration:none;
@@ -21,14 +26,24 @@ h1{
   text-align:center;
       }
 img{
-  padding:10px;
-  margin:5px;
   float:left;
+  padding:2px;
+  margin:15px;
   }
   
-  p{
+.broider {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABuUlEQVR4AdSSUYrDQAxDt/nYC+4594L9aXmQF4pAZEIp1AXhSPZMLKXb/f/xeMXP/lPb6VFSv8q9aPWcc5sHv70ei/7+3W7gbGFmgHM8g1Xe5tSt3Ankx6IK31o3tgYu6H+icfVW83ybU8/55OwG5iTanKlb02njuAet3+5Tt+b5eYmSAtBRVnpAnWeQ3CTogew3rm7lLJDPSdQE3BwXoHH1VjkLWj91ZoE6z0BunZMo2wM3P6t+AWvOn+mtn/fInZ+TqJtfrXwFkOfQwKqec8m5C8xJ1P9Ac7Kq51zjpAOyjwZSd785ieICNCepf4qbXN7PbmBOoulEjgsg12ly9dWa5+W8C8i9Tz4nUVwAHfAMdMIzyL78auUu4Dmewdn75iSqEx1acQl2/vHCu0C+yP3mJIoL0Jys6jnXuAllv+nsBuYk2pyk4+Tt3FU97218TqJ8f9CcpM7sK1q/6Z7NfuN+oTmJphMdqCdXb/Xd+TzvF5iXaDrJxLLfuAm0vvdmX92a/XmJmoSOsma/cZNofe/Nvro1+3MSNYHmJJ051+q783ne/eYkajJuLs/a+qlf5fkeed4zJtEnAAAA///AQbOoAAAABklEQVQDAOVTeKF/DioNAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+    margin: 10px;
+}
 
-    }
+.miniponi{
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin:10px;
+}
 </style>
   <head>
     <meta charset="UTF-8">
@@ -39,15 +54,15 @@ img{
   <p><a href="index.html">Volver</a></p>
   <h1><u>Fluttershy</u></h1>
   <img src="fluttershy.png" width="200" height="220">
-  <p>
-✧ Es una pegaso muy tímida y amable que vive en Ponyville. Le encantan los animales y tiene un talento especial para comunicarse con ellos.<br>
+  <p>✧ Es una pegaso muy tímida y amable que vive en Ponyville. Le encantan los animales y tiene un talento especial para comunicarse con ellos.<br>
   Su cutie mark son tres mariposas rosas que representan su amor y cuidado por los animales.<br>
 El elemento de la armonía que ella representa es el de la bondad.
 </p>
-  <img src="fluttershytimida.webp" style="padding-left:400px">
+  <img class="miniponi" src="fluttershytimida.webp">
   </div>
   </body>
   <footer>
   </footer>
 
 </html>
+
