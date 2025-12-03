@@ -1,102 +1,94 @@
 <!DOCTYPE html>
-<html>
+<head>
+  <meta charset="UTF-8">
+  <title>twilight sparkle</title>
 <style>
-body{
-  background-color:#DD99FF;
-  font-family: Century Gothic, sans-serif;
-  }
-
-td{
-  padding:5px;
-  margin:5px;
-  }
-  
-div{
-  background-color:#FFFFFF;
-  border-radius:10px;
-  padding:10px;
-  padding-bottom:95px;
-  width:800px;
-  margin:50px auto;
-  position: relative;
-  }
-
-div::after {
-  content: "";
-  display: block;
-  clear: both;
+body {
+      background-color:#DD99FF;
+      font-family: Century Gothic, sans-serif;
+      margin: 0;
+      padding: 0;
+}
+td {
+      padding:5px;
+      margin:5px;
 }
 
-a{
-  text-decoration:none;
-  }
-a:hover{
-  color:#FFBB00;
-      }
-h1{
-  text-align:center;
-      }
-img{
-  margin:15px;
-  }
-  
+.container {
+      background-color:#FFFFFF;
+      border-radius:10px;
+      padding:10px;
+      padding-bottom:95px;
+      width:800px;
+      margin:50px auto;
+      position: relative;
+      overflow: hidden;
+}
+
+.container::after {
+      content: "";
+      display: block;
+      clear: both;
+}
+
+a {
+      text-decoration:none;
+      color: inherit;
+}
+
+a:hover {
+      color:#FFBB00;
+}
+
+h1 {
+      text-align:center;
+}
+
+img {
+      margin:15px;
+}
+
 .broider {
-    float:left;
-    padding:2px;
-    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABuUlEQVR4AdSSUYrDQAxDt/nYC+4594L9aXmQF4pAZEIp1AXhSPZMLKXb/f/xeMXP/lPb6VFSv8q9aPWcc5sHv70ei/7+3W7gbGFmgHM8g1Xe5tSt3Ankx6IK31o3tgYu6H+icfVW83ybU8/55OwG5iTanKlb02njuAet3+5Tt+b5eYmSAtBRVnpAnWeQ3CTogew3rm7lLJDPSdQE3BwXoHH1VjkLWj91ZoE6z0BunZMo2wM3P6t+AWvOn+mtn/fInZ+TqJtfrXwFkOfQwKqec8m5C8xJ1P9Ac7Kq51zjpAOyjwZSd785ieICNCepf4qbXN7PbmBOoulEjgsg12ly9dWa5+W8C8i9Tz4nUVwAHfAMdMIzyL78auUu4Dmewdn75iSqEx1acQl2/vHCu0C+yP3mJIoL0Jys6jnXuAllv+nsBuYk2pyk4+Tt3FU97218TqJ8f9CcpM7sK1q/6Z7NfuN+oTmJphMdqCdXb/Xd+TzvF5iXaDrJxLLfuAm0vvdmX92a/XmJmoSOsma/cZNofe/Nvro1+3MSNYHmJJ051+q783ne/eYkajJuLs/a+qlf5fkeed4zJtEnAAAA///AQbOoAAAABklEQVQDAOVTeKF/DioNAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
-    border-width:  14px;
-    border-style:  solid;
-    margin: 10px;
+      float:left;
+      padding:2px;
+      border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABuUlEQVR4AdSSUYrDQAxDt/nYC+4594L9aXmQF4pAZEIp1AXhSPZMLKXb/f/xeMXP/lPb6VFSv8q9aPWcc5sHv70ei/7+3W7gbGFmgHM8g1Xe5tSt3Ankx6IK31o3tgYu6H+icfVW83ybU8/55OwG5iTanKlb02njuAet3+5Tt+b5eYmSAtBRVnpAnWeQ3CTogew3rm7lLJDPSdQE3BwXoHH1VjkLWj91ZoE6z0BunZMo2wM3P6t+AWvOn+mtn/fInZ+TqJtfrXwFkOfQwKqec8m5C8xJ1P9Ac7Kq51zjpAOyjwZSd785ieICNCepf4qbXN7PbmBOoulEjgsg12ly9dWa5+W8C8i9Tz4nUVwAHfAMdMIzyL78auUu4Dmewdn75iSqEx1acQl2/vHCu0C+yP3mJIoL0Jys6jnXuAllv+nsBuYk2pyk4+Tt3FU97218TqJ8f9CcpM7sK1q/6Z7NfuN+oTmJphMdqCdXb/Xd+TzvF5iXaDrJxLLfuAm0vvdmX92a/XmJmoSOsma/cZNofe/Nvro1+3MSNYHmJJ051+q783ne/eYkajJuLs/a+qlf5fkeed4zJtEnAAAA///AQbOoAAAABklEQVQDAOVTeKF/DioNAAAAAElFTkSuQmCC") 14 / 14px / 0 round;
+      border-width: 14px;
+      border-style: solid;
+      margin: 10px;
 }
 
-.miniponi{
-  position:absolute;
-  bottom:0;
-  right:0;
-  margin:10px;
+.miniponi {
+      position:absolute;
+      bottom:0;
+      right:0;
+      margin:10px;
 }
 
-.divisor{
-  text-align: center;
-  margin: 10px 0;
-  font-weight: bold;
-  color: #DDAADD;
+.divisor {
+      text-align: center;
+      margin: 20px 0;
+      font-weight: bold;
+      color: #DDAADD;
 }
-
-.line-text::before,
-.line-text::after {
-  content:"";
-  display:inline-block;
-  width:40%;
-  height:1px;
-  background:#ccc;
-  vertical-align:middle;
-  margin:0 10px;
-}
-</style>
-  <head>
-    <meta charset="UTF-8">
-    <title>twilight sparkle</title>
-  </head>
-  <body>
-  <div>
-  <p><a href="index.html">Volver</a></p>
-  <h1><u>Twilight Sparkle</u></h1>
-  <img class="broider "src="twilightsparkle.webp" width="300" height="350">
-  <p> ✧ La protagonista... va, son todas protagonistas, pero la historia inicia con ella. <br>
-  Era aprendiz/alumna/protegida de la Princesa Celestia, la gobernante de Equestria (reino ficticio del mundo de My Little Pony). 
-  La princesa manda a Twilight a un pequeño pueblo llamado Ponyville para que aprenda sobre la amistad, ya que Twilight era muy inteligente y todo, pero veía la amistad como "innecesaria" o "inutil".
-   En fin, va a Ponyville y allí aprende muchas cosas, entre ellas <i>la magia de la amistad :9</i>.<br>
-    Es muy organizada, estudiosa, le encanta leer, sabe muchísimo sobre magia. Su <i>cutie mark</i> (un dibujo que todos los ponys en la serie tienen en su cuerpo que representa su talento o propósito) es una estrella rosa de seis puntas rodeada de otras cinco estrellas blancas y representa su talento con la magia.<br>
-El elemento de la armonía que ella representa es el de la magia.<br></p>
-    <p></p>En inglés, su voz es hecha por Tara Strong, mientras que en español latino su voz es doblada por Carla Castañeda <br>
-    (dato curioso, al menos para mi: es hija de Mario Castañeda, voz oficial de Goku :9).</p>
-   
-    <div class="divisor">❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁</div>
-    <u><h2>Diseño</h2></u><br>
-    <p>Lauren Faust fue la encargada de diseñar los personajes principales, basándose en su propia infancia e influencias. Para Twilight, se basó en el personaje de la G1 también llamado Twilight:</p><br>
-    <div style="clear: both"></div>
-    <table>
+  </style>
+</head>
+<body>
+  <div class="container">
+<a href="index.html">Volver</a>
+<h1><u>Twilight Sparkle</u></h1>
+<img class="broider" src="twilightsparkle.webp" width="300" height="350">
+<p>✧ La protagonista... va, son todas protagonistas, pero la historia inicia con ella.<br>
+    Era aprendiz/alumna/protegida de la Princesa Celestia, la gobernante de Equestria (reino ficticio del mundo de My Little Pony). 
+    La princesa manda a Twilight a un pequeño pueblo llamado Ponyville para que aprenda sobre la amistad, ya que Twilight era muy inteligente y todo, pero veía la amistad como "innecesaria" o "inútil".<br>
+    En fin, va a Ponyville y allí aprende muchas cosas, entre ellas <i>la magia de la amistad :9</i>.<br>
+    Es muy organizada, estudiosa, le encanta leer, sabe muchísimo sobre magia. Su <i>cutie mark</i> es una estrella rosa de seis puntas rodeada de otras cinco estrellas blancas y representa su talento con la magia.<br>
+    El elemento de la armonía que ella representa es el de la magia.</p>
+   <p>En inglés, su voz es hecha por Tara Strong, mientras que en español latino su voz es doblada por Carla Castañeda.<br>
+    (dato curioso: es hija de Mario Castañeda, voz oficial de Goku :9).</p>
+<div class="divisor">❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁</div>
+<h2><u>Diseño</u></h2>
+<p>Lauren Faust fue la encargada de diseñar los personajes principales, basándose en su propia infancia e influencias. Para Twilight, se basó en el personaje de la G1 también llamado Twilight:</p>
+<table>
       <tr>
         <td><img src="Lauren_Faust_G1_Twilight_toy.webp" width="220" height="250"></td>
         <td><img src="Star_Gazing_Twilight_Sketch.webp" width="220" height="250"></td>
@@ -106,12 +98,11 @@ El elemento de la armonía que ella representa es el de la magia.<br></p>
         <td><img src="primertwilight.webp" width="220" height="250"></td>
       </tr>
     </table>
-   <img class="miniponi" src="twilightleyendo.webp">
+<img class="miniponi" src="twilightleyendo.webp">
   </div>
-  </body>
-  <footer>
-  </footer>
+</body>
 </html>
+
 
 
 
