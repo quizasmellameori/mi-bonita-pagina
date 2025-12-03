@@ -4,46 +4,70 @@
 body{
   background-color:#FFEEBB;
  font-family: Century Gothic, sans-serif;
-  }
+ margin: 0;
+ padding: 0;
+}
   
-div{
-  background-color:#FFFFFF;
-  border-radius:10px;
-  padding:10px;
-  padding-bottom:95px;
-  width:800px;
-  margin:250px auto;
-  overflow:auto;
-  position: relative;
-  }
+td{
+ padding:5px;
+ margin:5px;
+}
+
+.container{
+ background-color:#FFFFFF;
+ border-radius:10px;
+ padding:10px;
+ padding-bottom:95px;
+ width:800px;
+ margin:50px auto;
+ position: relative;
+ overflow: hidden;
+}
+
+.container::after{
+ content: "";
+ display: block;
+ clear: both;
+}
+
 a{
-  text-decoration:none;
-  }
+ text-decoration:none;
+ color: inherit;
+}
+
 a:hover{
-  color:#FFBB00;
-      }
+ color:#FFBB00;
+}
+
 h1{
-  text-align:center;
-      }
+ text-align:center;
+}
+
 img{
-  float:left;
-  padding:2px;
-  margin:15px;
-  }
-  
-.broider {
-    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABuUlEQVR4AdSSUYrDQAxDt/nYC+4594L9aXmQF4pAZEIp1AXhSPZMLKXb/f/xeMXP/lPb6VFSv8q9aPWcc5sHv70ei/7+3W7gbGFmgHM8g1Xe5tSt3Ankx6IK31o3tgYu6H+icfVW83ybU8/55OwG5iTanKlb02njuAet3+5Tt+b5eYmSAtBRVnpAnWeQ3CTogew3rm7lLJDPSdQE3BwXoHH1VjkLWj91ZoE6z0BunZMo2wM3P6t+AWvOn+mtn/fInZ+TqJtfrXwFkOfQwKqec8m5C8xJ1P9Ac7Kq51zjpAOyjwZSd785ieICNCepf4qbXN7PbmBOoulEjgsg12ly9dWa5+W8C8i9Tz4nUVwAHfAMdMIzyL78auUu4Dmewdn75iSqEx1acQl2/vHCu0C+yP3mJIoL0Jys6jnXuAllv+nsBuYk2pyk4+Tt3FU97218TqJ8f9CcpM7sK1q/6Z7NfuN+oTmJphMdqCdXb/Xd+TzvF5iXaDrJxLLfuAm0vvdmX92a/XmJmoSOsma/cZNofe/Nvro1+3MSNYHmJJ051+q783ne/eYkajJuLs/a+qlf5fkeed4zJtEnAAAA///AQbOoAAAABklEQVQDAOVTeKF/DioNAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
-    border-width:  14px;
-    border-style:  solid;
-    margin: 10px;
+ margin:15px;
+}
+
+.broider{
+ float:left;
+ padding:2px;
+ border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABuUlEQVR4AdSSUYrDQAxDt/nYC+4594L9aXmQF4pAZEIp1AXhSPZMLKXb/f/xeMXP/lPb6VFSv8q9aPWcc5sHv70ei/7+3W7gbGFmgHM8g1Xe5tSt3Ankx6IK31o3tgYu6H+icfVW83ybU8/55OwG5iTanKlb02njuAet3+5Tt+b5eYmSAtBRVnpAnWeQ3CTogew3rm7lLJDPSdQE3BwXoHH1VjkLWj91ZoE6z0BunZMo2wM3P6t+AWvOn+mtn/fInZ+TqJtfrXwFkOfQwKqec8m5C8xJ1P9Ac7Kq51zjpAOyjwZSd785ieICNCepf4qbXN7PbmBOoulEjgsg12ly9dWa5+W8C8i9Tz4nUVwAHfAMdMIzyL78auUu4Dmewdn75iSqEx1acQl2/vHCu0C+yP3mJIoL0Jys6jnXuAllv+nsBuYk2pyk4+Tt3FU97218TqJ8f9CcpM7sK1q/6Z7NfuN+oTmJphMdqCdXb/Xd+TzvF5iXaDrJxLLfuAm0vvdmX92a/XmJmoSOsma/cZNofe/Nvro1+3MSNYHmJJ051+q783ne/eYkajJuLs/a+qlf5fkeed4zJtEnAAAA///AQbOoAAAABklEQVQDAOVTeKF/DioNAAAAAElFTkSuQmCC") 14 / 14px / 0 round;
+ border-width: 14px;
+ border-style: solid;
+ margin: 10px;
 }
 
 .miniponi{
-  position:absolute;
-  bottom:0;
-  right:0;
-  margin:10px;
+ position:absolute;
+ bottom:0;
+ right:0;
+ margin:10px;
 }
+
+.divisor{
+ text-align: center;
+ margin: 20px 0;
+ font-weight: bold;
+ color:#FFDDAA;
 </style>
   <head>
     <meta charset="UTF-8">
@@ -58,6 +82,21 @@ img{
   Su cutie mark son tres mariposas rosas que representan su amor y cuidado por los animales.<br>
 El elemento de la armonía que ella representa es el de la bondad.
 </p>
+<div style="clear:both" class="divisor">❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁ ◡ ❁</div> 
+<div> 
+<h2><u>Diseño</u></h2> 
+<p>Para Fluttershy, Lauren Faust se basó en el personaje de la G1 Posey:</p> 
+  <table> 
+    <tr> 
+      <td><img src="Lauren_Faust_G1_Applejack_toy.webp" width="220" height="250"></td> 
+      <td><img src="Applejack_in_the_Garden_Sketch.webp" width="220" height="250"></td> 
+    </tr> 
+    <tr> 
+      <td><img src="Applejack_with_Frog_Sketch.webp" width="220" height="250"></td> 
+      <td><img src="primerapplejack.webp" width="220" height="250"></td> 
+    </tr> 
+  </table> 
+</div>
   <img class="miniponi" src="fluttershytimida.webp">
   </div>
   </body>
@@ -65,6 +104,7 @@ El elemento de la armonía que ella representa es el de la bondad.
   </footer>
 
 </html>
+
 
 
 
