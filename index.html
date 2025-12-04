@@ -86,6 +86,29 @@ a:hover{
   color:white;
   text-decoration: underline;
 }
+
+.extra{
+  border-radius:10px;
+  background-color:white;
+  width: 1600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#glosario{
+  grid-column:1;
+}
+  
+#fuentes{
+  grid-column:2;
+}
+  
+#canciones{
+ grid-column:3;
+}
+  
 </style>
 <head>
 <meta charset="UTF-8">
@@ -360,7 +383,8 @@ Literalmente, desde que tengo conciencia conocía My Little Pony y me gustaba la
 <marquee direction=left><h1><u>¿Dónde ver <i>My Little Pony: La Magia de la Amistad</i>?</u></h1></marquee>
   <p> La serie se puede encontrar en YouTube, ya sea en el canal oficial de My Little Pony o por canales de fans. También en Netflix se pueden encontrar las primeras 4 temporadas.</p>
 </div>
-  <div class="container">
+  <div class="extra"
+  <div id="glosario">
     <u><h2>Glosario: palabras para entender My Little Pony</h2></u>
     <ul>
       <li><b>MLP:</b> Acrónimo de My Little Pony</li>
@@ -368,7 +392,7 @@ Literalmente, desde que tengo conciencia conocía My Little Pony y me gustaba la
       <li><b>Unicornio:</b> Pony con un cuerno en la frente. Capaces de hacer magia</li>
       <li><b>Pegaso:</b> Pony con alas. Capaces de volar. Controlan el clima</li>
       <li><b>Alicornio:</b> Pony con un cuerno y alas. Tipo de pony muy raro, generalmente son de la realeza</li>
-      <li></b>Equestria:</b> Reino del mundo de MLP, gobernado por las princesas hermanas Celestia y Luna</li>
+      <li><b>Equestria:</b> Reino del mundo de MLP, gobernado por las princesas hermanas Celestia y Luna</li>
       <li><b>Canterlot:</b> Ciudad capital de Equestria, donde esta el castillo de las gobernadoras</li>
       <li><b>Ponyville:</b> Pequeño pueblo de Equestria donde viven las protagonistas</li>
       <li><b>Cutie Mark:</b> Marca que llevan todos los ponys que representan el talento o próposito de cada uno</li>
@@ -377,7 +401,7 @@ Literalmente, desde que tengo conciencia conocía My Little Pony y me gustaba la
       <li><b>Wonderbolts:</b> Grupo muy popular de pegasos acróbatas aéreos, los más importantes y mejores de Equestria</li>
     </ul>
   </div>
-  <div class="container">
+  <div id="fuentes">
     <u><h2>Fuentes: páginas utilizadas para la creación de ésta</h2></u>
         <ul>
       <li><a href="https://mlp.fandom.com/wiki/Lauren_Faust/Gallery#Development_sketches_for_the_show's_pitch_bible">Diseños Originales</a></li>
@@ -394,7 +418,7 @@ Literalmente, desde que tengo conciencia conocía My Little Pony y me gustaba la
       <li><a href="https://en.wikipedia.org/wiki/Mane_Six">Sobre los personajes principales (entre esa información habla sobre sus voces originales)</a></li>
     </ul>
   </div>
-  <div class="container">
+  <div id="canciones">
     <u><h2>Canciones Utilizadas:</h2></u>
     <ul>
     <li><a href="https://www.youtube.com/watch?v=JOY69M6-f5I">MLP:FiM Background Music: The Cutie Mark Crusaders Go Crusading</a></li>
@@ -407,6 +431,7 @@ Literalmente, desde que tengo conciencia conocía My Little Pony y me gustaba la
     <li><a href="https://www.youtube.com/watch?v=F2FJUILHmhA">MLP:FiM - Find a Pet Song (Instrumental)</a></li>
     <li><a href="https://www.youtube.com/watch?v=inQgiGUU-K4">MLP:FiM - Raise this Barn (Instrumental)</a></li>
     </ul>
+  </div>
   </div>
 </body>
 <footer>
